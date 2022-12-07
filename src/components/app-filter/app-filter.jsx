@@ -11,7 +11,7 @@ const AppFilter = () => {
         На повышение
       </button>
       <button className="btn btn-outline-light" type="button">
-        ЗП больше 1000$
+        ЗП больше 1000€
       </button>
     </div>
   )

@@ -63,3 +63,13 @@
 .list-group-item.increase .btn-star {
   color: #aeaeae;
 }
+
+.list-group-item .btn-cookie {
+  border-radius: 15px;
+	background-color: var(--bs-list-group-bg);
+}
+
+.list-group-item .btn-trash {
+  border-radius: 15px;
+	background-color: var(--bs-list-group-bg);
+}
