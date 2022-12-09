@@ -8,11 +8,12 @@ import EmployeesAddForm from "../components/employees-add-form/employees-add-for
 
 const App = () => {
   const data = [
-    { name: "Arnold P.", salary: 250, increase: true },
-    { name: "Eva A.", salary: 450, increase: false },
-    { name: "John N.", salary: 350, increase: false },
-    { name: "Kolin F.", salary: 380, increase: true },
+    { id: 1, name: "Arnold P.", salary: 250, increase: true },
+    { id: 2, name: "Eva A.", salary: 450, increase: false },
+    { id: 3, name: "John N.", salary: 350, increase: false },
+    { id: 4, name: "Kolin F.", salary: 380, increase: true },
   ]
+
 
   return (
     <div className="app">
